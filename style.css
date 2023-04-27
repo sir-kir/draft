@@ -1,0 +1,147 @@
+@font-face {
+  font-family: archivo;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-Italic.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-MediumItalic.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-SemiBold.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-SemiBoldItalic.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: archivo;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Archivo'), url(https://fonts.cdnfonts.com/s/15550/Archivo-BoldItalic.woff) format('woff');
+}
+.default-text {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Archivo', sans-serif;
+}
+.op4 {
+  opacity: 0.4;
+}
+.op3 {
+  opacity: 0.3;
+}
+.op1 {
+  opacity: 0.2;
+}
+.title {
+  margin: 0 auto;
+  max-width: 50rem;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39px;
+  padding-top: 6rem;
+}
+.about {
+  margin: 0 auto;
+  padding-top: 2rem;
+  max-width: 60rem;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: justify;
+}
+.about img {
+  display: block;
+  margin: 0 auto;
+}
+.subtitle {
+  padding-top: 5rem;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+.name {
+  padding-top: 1rem;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+.prof {
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  font-size: 16px;
+  line-height: 17px;
+}
+#tags {
+  padding: 2rem 1rem;
+}
+a {
+  display: inline-block;
+  padding: 12px 15px;
+  border: 1px solid transparent;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #040600;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+}
+a:hover {
+  border: 1px solid #4F5248;
+  border-radius: 35px;
+  opacity: 1;
+}

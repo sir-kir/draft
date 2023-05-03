@@ -67,6 +67,22 @@ h4 {
 .op1 {
   opacity: 0.2;
 }
+.h95 {
+  height: 95%;
+}
+.logo {
+  width: 90%;
+}
+.bg {
+  background: url(/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.tg {
+  display: block;
+  width: 50%;
+}
 .title {
   margin: 0 auto;
   max-width: 50rem;

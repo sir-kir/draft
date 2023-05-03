@@ -74,7 +74,7 @@ h4 {
   width: 90%;
 }
 .bg {
-  background: url(/bg.png);
+  background: url(bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
